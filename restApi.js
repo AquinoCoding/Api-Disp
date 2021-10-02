@@ -58,7 +58,7 @@ Horário marcado: ${usuario.Hora} por horario marcado
 }
 
 function main() {
-    let data = fazGet("https://sheet.best/api/sheets/b5af9109-ad47-4e21-b6c2-bf89bfacfcbf")
+    let data = fazGet("https://sheet.best/api/sheets/b5af9109-ad47-4e21-b6c2-bf89bfacfcbff")
     let usuarios = JSON.parse(data)
 
     let tabela = document.getElementById("tabela");
